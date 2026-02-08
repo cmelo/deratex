@@ -9,8 +9,9 @@
     "test": "ng test",
     "serve:ssr:deratex": "node dist/deratex/server/server.mjs",
     "lint": "ng lint",
-    "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "prettier": "prettier --write .",
+    "prettier:check": "prettier --check .",
+    "format": "npm run prettier && npm run lint"
   },
   "private": true,
   "packageManager": "npm@11.6.2",

@@ -10,7 +10,10 @@ module.exports = {
 		},
 	],
 
-	plugins: ['prettier-plugin-css-order', '@trivago/prettier-plugin-sort-imports'],
+	plugins: [
+		'prettier-plugin-css-order',
+		'@trivago/prettier-plugin-sort-imports',
+	],
 
 	// basic
 	useTabs: true,
@@ -43,5 +46,10 @@ module.exports = {
 	importOrderSeparation: true,
 	importOrderSortSpecifiers: true,
 	importOrderGroupNamespaceSpecifiers: true,
-	importOrder: ['^@angular/(.*)$', '<THIRD_PARTY_MODULES>', '^[../]', '^[./]'],
+	importOrder: [
+		'^@angular/(.*)$',
+		'<THIRD_PARTY_MODULES>',
+		'^[../]',
+		'^[./]',
+	],
 };

@@ -64,7 +64,7 @@
           },
           "configurations": {
             "production": {
-              "baseHref": "/deratex/",
+              "baseHref": "/deratex-plus/",
               "budgets": [
                 {
                   "type": "initial",
